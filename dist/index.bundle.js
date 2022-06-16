@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n_home__WEBPACK_IMPORTED_MODULE_0__.homepage()\n\n// home.tab1.addEventListener('click', () => {\n    \n// });\n\n_home__WEBPACK_IMPORTED_MODULE_0__.tab2.addEventListener('click', () => {\n    _menu__WEBPACK_IMPORTED_MODULE_1__();\n});\n\n_home__WEBPACK_IMPORTED_MODULE_0__.tab3.addEventListener('click', () => {\n    \n});\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n_home__WEBPACK_IMPORTED_MODULE_0__.homepage()\n\n_home__WEBPACK_IMPORTED_MODULE_0__.tab2.addEventListener('click', function(){\n    ;(0,_menu__WEBPACK_IMPORTED_MODULE_1__.menuItems)()\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuItems\": () => (/* binding */ menuItems)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\nfunction menuItems(){\n    _home__WEBPACK_IMPORTED_MODULE_0__.heading.textContent = 'Menu';\n    _home__WEBPACK_IMPORTED_MODULE_0__.descr.textContent = 'Whether you\\'re looking for a late dinner or an early breakfast, we\\'ve got teh cure to fix what ails ya.'; \n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuItems\": () => (/* binding */ menuItems)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\nfunction menuItems(){\n    _home__WEBPACK_IMPORTED_MODULE_0__.heading.textContent = 'Menu';\n    _home__WEBPACK_IMPORTED_MODULE_0__.descr.textContent = 'Whether you\\'re looking for a late dinner or an early breakfast, we\\'ve got the cure to fix what ails ya.'; \n};\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ })
 
