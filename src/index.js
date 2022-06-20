@@ -1,6 +1,6 @@
 import * as home from './home'
-import { menuItems } from './menu'
-// import { contact } from './contact'
+import { menu } from './menu'
+import { contact } from './contact'
 
 home.homepage()
 
@@ -10,23 +10,34 @@ const menuToggle = () => {
     home.tab3.style.color = "white";
 }
 
+const clearPage = () => {
+    while (home.card.lastChild){
+        home.card.removeChild(home.card.lastChild);
+    }
+}
+
 home.title.addEventListener('click', () => {
+    clearPage();
     home.homepage();
 })
 
 home.tab1.addEventListener('click', () => {
+    clearPage();
     home.homepage();
     menuToggle();
     home.tab1.style.color = "orange";    
 });
 
 home.tab2.addEventListener('click', function(){
-    menuItems();
+    clearPage();
+    menu();
     menuToggle();
     home.tab2.style.color = "orange";
 });
 
 home.tab3.addEventListener('click', () => {
+    clearPage();
+    contact();
     menuToggle();
     home.tab3.style.color = "orange";
 });

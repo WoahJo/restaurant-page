@@ -60,13 +60,19 @@ li:hover {
 }
 
 .heading {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     padding-bottom: 15px;
 }
 
 .descr {
     padding-bottom: 25px;
+}
+
+.menu-item {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 
 footer {
