@@ -10,8 +10,8 @@ export const card = document.createElement('div');
 export const heading = document.createElement('div');
 export const descr = document.createElement('div');
 export const footer = document.createElement('footer');//append to header
-function homepage(){
 
+function homepage(){
     //assign classes to elements
     header.classList.add('header');
     title.classList.add('title');
@@ -37,6 +37,64 @@ function homepage(){
     header.append(title, tabs);
     mainInfo.appendChild(card);
     card.append(heading, descr);
+
+    
+
 };
 
 export { homepage };
+
+
+// function createHeader(id, text){
+//     const header = document.createElement('div');
+//     header.setAttribute('class', id);
+//     const title = document.createElement('div');
+//     title.setAttribute('class', 'title');
+//     title.textContent = text; 
+//     header.appendChild(title);
+//     title.style.color = "blue";
+//     return header;
+//   };
+  
+//   function createTabs(id, name) {
+//     const tab = document.createElement('li');
+//     tab.setAttribute('class', id);
+//     tab.textContent = name;
+//     return tab;
+//   };
+  
+//   function createNav(id) {
+//     const nav = document.createElement('ul');
+//     nav.setAttribute('class', id);
+//     const homeTab = createTabs('homeTab', 'Home');
+//     const menuTab = createTabs('menuTab', 'Menu');
+//     const contactTab = createTabs('contactTab', 'Contact');
+    
+//     nav.append(homeTab, menuTab, contactTab);
+//     return nav;
+//   };
+//   function createCard(id){
+//     const card = document.createElement('div');
+//     card.setAttribute('class', 'card');  
+//   };
+  
+//   function createFooter(text) {
+//     const footer = document.createElement('footer');
+//     footer.textContent = text;
+//     return footer;
+//   };
+  
+//   function mainInfo(id){
+//     const mainInfo = document.createElement('div');
+//     mainInfo.setAttribute('class', 'main-info');  
+//   }
+  
+//   function loadPage(){
+//     const content = document.getElementById('content');
+//     const header = createHeader('header', 'Hi.');
+//     const tabs = createNav('tabs');
+//     const footer = createFooter('Made by WoahJo');
+    
+//     content.append(header, tabs, footer);
+//   };
+  

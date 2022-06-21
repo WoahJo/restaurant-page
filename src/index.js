@@ -15,8 +15,9 @@ const clearPage = () => {
         home.card.removeChild(home.card.lastChild);
     }
 }
+const title = document.getElementsByClassName('title'); 
 
-home.title.addEventListener('click', () => {
+title[0].addEventListener('click', () => {
     clearPage();
     home.homepage();
 })
