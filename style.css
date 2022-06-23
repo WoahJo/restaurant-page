@@ -59,6 +59,11 @@ li:hover {
     width: min(50%, 500px);
 }
 
+.img-head {
+     height: 410px;
+     padding-bottom: 30px;
+}
+
 .heading {
     font-size: 1.3rem;
     font-weight: 700;
