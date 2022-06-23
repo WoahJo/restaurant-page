@@ -30,7 +30,7 @@ function itemDescr (id, text) {
 
 function menu () {
     const card = document.getElementsByClassName('card')[0]; 
-    clearCard();
+    card.textContent = '';
     const heading = menuHead('heading', 'Menu');
     const descr = menuDesc('descr', 
     'Whether you\'re looking for a late dinner or an early breakfast, we\'ve got the cure to fix what ails ya.'

@@ -24,7 +24,7 @@ function image(){
 
 function home() {
     const card = document.getElementsByClassName('card')[0];
-    clearCard();
+    card.textContent = '';
     const mainInfo = document.createElement('div');
     mainInfo.setAttribute('class', 'main-info');
     const imageHead = image();

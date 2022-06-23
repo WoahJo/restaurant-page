@@ -1,9 +1,9 @@
-function clearCard() {
-  const card = document.getElementsByClassName('card')[0];
-      while (card.lastChild){
-          card.removeChild(card.lastChild);
-      }
-};
+// function clearCard() {
+//   const card = document.getElementsByClassName('card')[0];
+//       while (card.lastChild){
+//           card.removeChild(card.lastChild);
+//       }
+// };
 
 function createHeader(id, text){
     const header = document.createElement('div');
@@ -65,4 +65,4 @@ function createHeader(id, text){
   };
 
 
-  export { loadPage, clearCard };
+  export { loadPage };
