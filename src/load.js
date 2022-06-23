@@ -1,3 +1,10 @@
+function clearCard() {
+  const card = document.getElementsByClassName('card')[0];
+      while (card.lastChild){
+          card.removeChild(card.lastChild);
+      }
+};
+
 function createHeader(id, text){
     const header = document.createElement('div');
     header.setAttribute('class', id);
@@ -57,4 +64,5 @@ function createHeader(id, text){
     header.appendChild(tabs);
   };
 
-  export { loadPage };
+
+  export { loadPage, clearCard };

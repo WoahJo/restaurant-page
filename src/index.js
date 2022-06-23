@@ -1,10 +1,22 @@
 import { home } from './home'
-// import { menu } from './menu'
+import { menu } from './menu'
 // import { contact } from './contact'
 import {loadPage } from './load'
 
-loadPage()
-home()
+loadPage();
+home();
+
+function tabSwitch(){
+    const homeTab = document.getElementsByClassName('tab1')[0];
+    const menuTab = document.getElementsByClassName('tab2')[0];
+    // const contactTab = document.getElementsByClassName('tab3')[0];
+
+    homeTab.addEventListener('click', home);
+    menuTab.addEventListener('click', menu);
+
+};
+
+tabSwitch();
 
 // const menuToggle = () => {
 //     home.tab1.style.color = "white";
@@ -12,11 +24,6 @@ home()
 //     home.tab3.style.color = "white";
 // }
 
-// const clearPage = () => {
-//     while (home.card.lastChild){
-//         home.card.removeChild(home.card.lastChild);
-//     }
-// }
 // const title = document.getElementsByClassName('title'); 
 // const homeTab = document.getElementsByClassName('tab1');
 // const menuTab = document.getElementsByClassName('tab2');
