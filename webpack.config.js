@@ -7,6 +7,7 @@ module.exports = {
         home: './src/home.js',
         menu: './src/menu.js',
         contact: './src/contact.js',
+        load: './src/load.js',
     }, 
     output : {
         filename: '[name].bundle.js', 

@@ -1,5 +1,3 @@
-import * as home from "./home";
-
 function contact() {
     const contactHead = document.createElement('div');
     const contactInfo = document.createElement('div');

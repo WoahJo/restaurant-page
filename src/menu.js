@@ -1,4 +1,4 @@
-import * as home from './home'
+
 
 function menu(){
     while (home.card.lastChild){
