@@ -38,7 +38,7 @@ function menu () {
 
     const menuItem1 = itemTitle('menu-item', 'Grease-cakes w/ Maple - $12');
     const menuItem2 = itemTitle('menu-item', 'Soup... Surprise! - $5');
-    const menuItem3 = itemTitle('menu-item', 'The Cow Lick - $13');
+    const menuItem3 = itemTitle('menu-item', 'The Cow Lick Burger - $13');
 
     const menuDesc1 = itemDescr('descr', 'Pancakes cooked in enough oil to fry a bull and drowned in locally-tapped maple. Comes with a side of sausage and 2 eggs.');
     const menuDesc2 = itemDescr('descr', 'Get a bowl full of whatever didn\'t sell so well the night before pureed and salted. It\'s still good, we swear. Comes with toast.');
