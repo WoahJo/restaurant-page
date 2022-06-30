@@ -1,5 +1,5 @@
 # End of the Line Cafe (Tabbed Restaurant Page)  
-View it live (HERE)[https://woahjo.github.io/restaurant-page/]!
+View it live [HERE](https://woahjo.github.io/restaurant-page/)!
   
 ## Goal:  
   
